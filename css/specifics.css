@@ -4,3 +4,9 @@ a.link-footer {
   margin: 0;
   width: 100%;
 }
+
+@media (max-width: 575.98px) {
+  div.box-telefone {
+    margin-bottom: 2rem;
+  }
+}
