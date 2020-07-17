@@ -32,6 +32,12 @@ a.link-acesso:hover {
   color: blue;
 }
 
+/* certificados modal */
+div.item-certificado {
+  /* width: 50%; */
+  padding: 1rem;
+}
+
 /* link dark */
 a.link-acesso-dark {
   color: #CBE9FF;
