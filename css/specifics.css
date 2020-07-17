@@ -1,8 +1,48 @@
+/* footer */
 a.link-footer {
   color: #fff;
   padding: 0;
   margin: 0;
   width: 100%;
+}
+
+/* Modal */
+h2.titulo-modal {
+  font-size: 2.5rem !important;
+  line-height: 3.2rem !important;
+}
+
+p.description-modal {
+  font-size: 1.1rem;
+}
+
+p.text-acesso {
+  font-size: 1.1rem;
+}
+
+a.link-acesso {
+  color: #C90721;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-decoration: underline;
+}
+
+a.link-acesso:hover {
+  color: blue;
+}
+
+/* link dark */
+a.link-acesso-dark {
+  color: #CBE9FF;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-decoration: underline;
+}
+
+a.link-acesso-dark:hover {
+  color: yellow;
 }
 
 @media (max-width: 575.98px) {
