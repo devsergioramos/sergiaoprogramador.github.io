@@ -55,4 +55,19 @@ a.link-acesso-dark:hover {
   div.box-telefone {
     margin-bottom: 2rem;
   }
+
+  /* Modal */
+  h2.titulo-modal {
+    font-size: 2rem !important;
+    line-height: 2.5rem !important;
+  }
+
+  div.item-certificado {
+    /* width: 50%; */
+    padding: 0;
+  }
+
+  div.item-certificado iframe {
+    height: 220px !important;
+  }
 }
