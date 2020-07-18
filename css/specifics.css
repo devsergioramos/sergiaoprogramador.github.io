@@ -83,7 +83,7 @@ a.link-acesso-dark:hover {
   }
 
   /* ocultar no mobile */
-  div.item-certificado > iframe {
+  div.item-certificado > embed {
     display: none;
   }
 
