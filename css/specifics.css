@@ -62,29 +62,206 @@ a.link-acesso-dark:hover {
 
   /* Modal */
   h2.titulo-modal {
-    font-size: 2rem !important;
-    line-height: 2.5rem !important;
+    font-size: 1.6rem !important;
+    line-height: 2.2rem !important;
   }
 
   div.item-certificado {
     /* width: 50%; */
     padding: 0;
+    margin-bottom: 4rem;
   }
 
-  div.item-certificado iframe {
+  /* ocultar no mobile */
+  div.item-certificado > iframe {
+    display: none;
+  }
+
+  div.item-certificado > div {
+    display: none;
+  }
+
+  div.item-certificado p.text-acesso {
+    margin-top: 230px;
+  }
+
+  /* 1 */
+  div#certificado-1 {
     height: 220px !important;
-    background-image: url("../assets/certificados/09-2017-Certificado\ Maratona\ Células\ Empreendedoras.png");
+    background-image: url("../assets/certificados/05-2020-Certificado Vencedor Hackathon Hacking Help.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
 
-  div.item-certificado > div {
-    margin: 0;
+  /* 2 */
+  div#certificado-2 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/05-2020-Certificado Hacking Help.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
-  div.item-certificado > div > img {
+   /* 3 */
+   div#certificado-3 {
     height: 220px !important;
-    width: 100% !important;
+    background-image: url("../assets/certificados/01-2020-Certificado Desenvolvimento Web Completo 2019 - 20 cursos + 20 projetos.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 4 */
+  div#certificado-4 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/01-2020-Certificado Curso Completo de PHP 7.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 5 */
+  div#certificado-5 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/01-2020-Certificado Laravel 5.8 Completo - O mais poderoso Framework PHP.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 6 */
+  div#certificado-6 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/07-2019-Curso Desenvolvimento Web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 7 */
+  div#certificado-7 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/12-2018-Certificado Startup Weekend Cuiabá ODS.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 8 */
+  div#certificado-8 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/11-2018-WTEC 2.0.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 9 */
+  div#certificado-9 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/07-2018-WTEC 1.0 - Mostra de Ideias.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 10 */
+  div#certificado-10 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/07-2018-WTEC 1.0 - Banco de Dados Geográficos com Postgres SQL.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 11 */
+  div#certificado-11 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/07-2018-WTEC 1.0 - Redes de Sensores Sem fio.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 12 */
+  div#certificado-12 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/07-2018-WTEC 1.0 - Redes em Chip Expansiveis.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 13 */
+  div#certificado-13 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/07-2018-WTEC 1.0 - Redes Neurais.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 14 */
+  div#certificado-14 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/07-2018-WTEC 1.0 - Tecnologias e Projetos com VANT.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 15 */
+  div#certificado-15 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/07-2018-WTEC 1.0 - Wake UP.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 16 */
+  div#certificado-16 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/07-2018-WTEC 1.0.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 17 */
+  div#certificado-17 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/10-2017-Certificado 8º Jornada Científica.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 18 */
+  div#certificado-18 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/09-2017-Certificado Maratona Células Empreendedoras.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 19 */
+  div#certificado-19 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/05-2017-Certificado Startup Weekend Sinop.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* 20 */
+  div#certificado-20 {
+    height: 220px !important;
+    background-image: url("../assets/certificados/05-2017-Certificado Palestra Unemat.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
