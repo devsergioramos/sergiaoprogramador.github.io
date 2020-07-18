@@ -56,6 +56,16 @@ a.link-acesso-dark:hover {
 }
 
 @media (max-width: 575.98px) {
+  /* Header hero */
+  header.masthead {
+    padding-top: calc(6rem + 14px)
+  }
+
+  /* sobre */
+  section#about p.pre-wrap {
+    text-align: left;
+  }
+
   div.box-telefone {
     margin-bottom: 2rem;
   }
@@ -63,7 +73,7 @@ a.link-acesso-dark:hover {
   /* Modal */
   h2.titulo-modal {
     font-size: 1.6rem !important;
-    line-height: 2.2rem !important;
+    line-height: 2rem !important;
   }
 
   div.item-certificado {
@@ -83,6 +93,12 @@ a.link-acesso-dark:hover {
 
   div.item-certificado p.text-acesso {
     margin-top: 230px;
+  }
+
+  /* CERTIFICADOS */
+  section.certificados-portfolio {
+    padding-bottom: 0rem;
+    padding-top: 4rem;
   }
 
   /* 1 */
